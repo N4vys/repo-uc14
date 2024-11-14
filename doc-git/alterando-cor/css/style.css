@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: gold;
+    align-items: center;
+}
+
+main {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    max-width: 80%;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+button, input [type="color"], label {
+    cursor: pointer;
+}
+
+button, input [type="text"] {
+    margin: 5px;
+    padding: 10PX;
+    font-size: 16;
+    outline: none;
+}
+
